@@ -136,7 +136,7 @@ $(function() {
         el.setAttribute('data-url', file);//必选参数
         el.setAttribute('data-title', title);//必选参数
         
-        el.setAttribute('data-author-key', 'hugcoday@gmail.com');//可选参数
+        el.setAttribute('data-author-key', 'werjx0@163.com');//可选参数
         DUOSHUO.EmbedThread(el);
         _div.append(el);
         
