@@ -38,8 +38,8 @@ pre code {
   display: block;
   background: white;
   color: #4d4d4c;
-  font-family: SimSun, Menlo, Monaco, Consolas, monospace;
-  line-height: 1.3;
+  font-family: Menlo, Monaco, Consolas, monospace;
+  line-height: 1.5;
   border: 1px solid #ccc;
   padding: 0.5em;
 }
