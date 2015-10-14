@@ -40,16 +40,6 @@ pre code {
   color: #4d4d4c;
   font-family: Menlo, Monaco, Consolas, monospace;
   line-height: 1.5;
-  /*border: 1px solid #ccc;*/
-  padding: 0.5em;
-}
-
-pre .coffeescript .javascript,
-pre .javascript .xml,
-pre .tex .formula,
-pre .xml .javascript,
-pre .xml .vbscript,
-pre .xml .css,
-pre .xml .cdata {
-  opacity: 0.5;
+  border: 1px solid #ccc;
+  padding: 10px;
 }
