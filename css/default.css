@@ -39,11 +39,9 @@ pre code {
   background: white;
   color: #4d4d4c;
   font-family: Menlo, Monaco, Consolas, monospace;
-  line-height: 1.2;
-  border: 1px solid #ccc;
-  /*padding: 0.5em;*/
-  padding: 1px;
-
+  line-height: 1.5;
+  /*border: 1px solid #ccc;*/
+  padding: 0.5em;
 }
 
 pre .coffeescript .javascript,
