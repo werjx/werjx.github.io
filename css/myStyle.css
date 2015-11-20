@@ -1,0 +1,65 @@
+html,body {
+height:100%;
+margin:0;
+padding:0;
+}
+
+#top {
+position:relative;
+float:right;
+width:100%;
+text-align:center;
+}
+
+#floater {
+height:20%;
+margin-bottom:-150px;
+position:relative;
+}
+
+#content {
+clear:both;
+height:auto!important;
+position:relative;
+margin:0 auto;
+background-color:#fffff8;
+width:1060px;
+padding:20px;
+}
+
+#stockTable {
+  text-align:center;
+}
+
+caption {
+  padding:2px;
+  font-weight:bold;
+  text-align:left;
+  background-color:#FFF1F1;
+  border:1px solid #D9D9D9;
+  margin-bottom:1px;
+}
+
+table,td,th {
+  border:1px solid #C9C9C9;
+}
+
+table {
+  border-collapse:collapse;
+  width:100%;
+  font: 12px Arial, SimSun, 'Helvetica Neue', Helvetica, Arial,sans-serif;
+}
+
+th {
+  background-color:#CDE5FC;
+  cursor:pointer;
+  padding:2px;
+}
+
+.yellow {
+  background-color:#FCFC77;
+}
+
+td {
+  padding:2px;
+}

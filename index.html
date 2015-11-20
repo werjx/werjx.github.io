@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="description" content="某证券公司研究所股票关注，显示及时行情以及目标价位等信息。仅作参考，投资须谨慎。" />
+
+  <link rel="stylesheet" type="text/css" href="css/myStyle.css">
+  <link rel="icon" href="rsrc.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="rsrc.ico" type="image/x-icon" />
+
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/hqTable.js" type="text/javascript"></script>
+  <script src="js/sortTable.js" type="text/javascript"></script>
+
+  <title>沪深追踪</title>
+
+</head>
+
+<body>
+<div id="content">
+      <script>
+        emptyTableMake("stock", hqArr);
+        var stockUrl = urlMake(hqArr);
+
+        // 提供jsonp服务的url地址（不管是什么类型的地址，最终生成的返回值都是一段javascript代码）
+        doJsonp(stockUrl, stockArrayMake, 20000);
+
+        var nowTime = new Date();
+        if(nowTime.getHours() >= 9 && nowTime.getHours() <= 15) {
+          setInterval("doJsonp(stockUrl, stockArrayMake, 20000)", "5000");
+        }
+      </script>
+</div>
+
+</body>
+</html>
