@@ -1,1 +1,1 @@
-# https://werjx.github.io
+# http://werjx.github.io
