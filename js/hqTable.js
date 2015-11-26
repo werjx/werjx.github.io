@@ -196,7 +196,7 @@ function tableMake(arr, stockData, name) {
     trNode.cells[12].innerHTML = stockData[id]["space1"];
     trNode.cells[13].innerHTML = stockData[id]["space2"];
     trNode.cells[14].innerHTML = stockData[id]["days"];
-    trNode.cells[16].innerHTML = stockData[id]["grade"];
+    trNode.cells[15].innerHTML = stockData[id]["grade"];
 
     //根据数据内容调整字体颜色,根据价格升降显示背景色
     if (oldPrice != 0.0 && trNode.cells[4].innerHTML > oldPrice) {
